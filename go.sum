@@ -1,0 +1,6 @@
+github.com/knqyf263/go-plugin v0.8.0 h1:Qlfr4j9V9kFeMthCPbCa7weS0zuU0R6JTEYCgOiRwbc=
+github.com/knqyf263/go-plugin v0.8.0/go.mod h1:64X3Hb/AiYfEV99Lgt4Wzhhuc9AceIHNMLcEI8agI0A=
+github.com/tetratelabs/wazero v1.2.1 h1:J4X2hrGzJvt+wqltuvcSjHQ7ujQxA9gb6PeMs4qlUWs=
+github.com/tetratelabs/wazero v1.2.1/go.mod h1:wYx2gNRg8/WihJfSDxA1TIL8H+GkfLYm+bIfbblu9VQ=
+google.golang.org/protobuf v1.32.0 h1:pPC6BG5ex8PDFnkbrGU3EixyhKcQ2aDuBS36lqK/C7I=
+google.golang.org/protobuf v1.32.0/go.mod h1:c6P6GXX6sHbq/GpV6MGZEdwhWPcYBgnhAHhKbcUYpos=

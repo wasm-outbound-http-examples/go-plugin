@@ -1,0 +1,14 @@
+{
+  "name": "go-plugin: HTTP request from WASM",
+  "image": "ubuntu:jammy",
+  "features": {
+    "ghcr.io/devcontainers/features/go:1": {
+      "version": "1.21"
+    },
+    "ghcr.io/rchaganti/vsc-devcontainer-features/tinygo:1": {
+      "version": "0.30.0"
+    },
+    "ghcr.io/devcontainers/features/common-utils": {}
+  },
+  "postCreateCommand": "bash .devcontainer/postCreate.sh",
+}

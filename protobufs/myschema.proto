@@ -1,0 +1,22 @@
+syntax = "proto3";
+package protobufs;
+
+option go_package = "github.com/wasm-outbound-http-examples/go-plugin/protobufs";
+
+// go:plugin type=plugin version=1
+service FetchService {
+  rpc Fetch(HttpGetRequest) returns (HttpGetResponse) {}
+}
+
+// go:plugin type=host
+service HostFunctions {
+  rpc HttpGet(HttpGetRequest) returns (HttpGetResponse) {}
+}
+
+message HttpGetRequest {
+  string url = 1;
+}
+
+message HttpGetResponse {
+  bytes response = 1;
+}
